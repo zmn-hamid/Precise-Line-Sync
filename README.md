@@ -40,11 +40,11 @@ The status bar displays `Line sync: on` or `Line sync: off`.
 
 ### Community Plugins
 
-After approval, install **Precise Line Sync** from **Settings → Community plugins** in Obsidian.
+After approval, install **Precise Line Sync** from the [Obsidian Community directory](https://community.obsidian.md/plugins/precise-line-sync): open **Settings → Community plugins**, search for **Precise Line Sync**, and select **Install**.
 
 ### Manual installation
 
-1. Download `main.js`, `manifest.json`, and `styles.css` from a release.
+1. Download [`main.js`](https://github.com/zmn-hamid/Precise-Line-Sync/releases/latest/download/main.js), [`manifest.json`](https://github.com/zmn-hamid/Precise-Line-Sync/releases/latest/download/manifest.json), and [`styles.css`](https://github.com/zmn-hamid/Precise-Line-Sync/releases/latest/download/styles.css) from the [latest GitHub release](https://github.com/zmn-hamid/Precise-Line-Sync/releases/latest).
 2. Create a folder named `precise-line-sync` under your vault's `.obsidian/plugins/` directory.
 3. Copy the three downloaded files into that folder.
 4. Restart or reload Obsidian.

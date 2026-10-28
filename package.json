@@ -1,0 +1,18 @@
+{
+  "name": "precise-line-sync",
+  "version": "0.9.0",
+  "private": true,
+  "description": "Align logical lines in two Obsidian Live Preview panes.",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --external:obsidian --format=cjs --platform=node --target=es2020 --outfile=main.js",
+    "validate": "npm run build && node scripts/validate-release.mjs"
+  },
+  "dependencies": {
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.36.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

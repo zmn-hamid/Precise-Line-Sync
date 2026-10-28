@@ -1,0 +1,13 @@
+.precise-line-sync-status {
+  color: var(--text-muted);
+  cursor: default;
+}
+
+.precise-line-sync-status.is-active {
+  color: var(--text-accent);
+}
+
+/* View-only spacer applied as a native CodeMirror line decoration. */
+.precise-line-sync-gap {
+  box-sizing: border-box;
+}

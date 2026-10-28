@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+
+# Generated distribution bundle is rebuilt for releases, but kept in the repo
+# because Obsidian community plugins install main.js directly.

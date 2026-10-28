@@ -1,0 +1,9 @@
+{
+  "id": "precise-line-sync",
+  "name": "Precise Line Sync",
+  "version": "0.9.0",
+  "minAppVersion": "1.5.0",
+  "description": "Align corresponding logical lines in two side-by-side Live Preview notes while scrolling.",
+  "author": "Local",
+  "isDesktopOnly": true
+}
